@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCityLights"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <ImageView
+        android:id="@+id/imgMic"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_view"
+        android:padding="30dp"
+        android:src="@drawable/ic_mic"
+        android:tint="@android:color/white" />
+
+    <TextView
+        android:layout_below="@id/imgMic"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:text="@string/str_tap_to_speak"/>
+
+</RelativeLayout>

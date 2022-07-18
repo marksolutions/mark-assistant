@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">mark</string>
+
+    <string name="str_hi">hi</string>
+    <string name="str_hi_there">Hi there</string>
+    <string name="str_i_dont_get_you">I don\'t get you</string>
+    <string name="str_there">there</string>
+    <string name="str_hey_mark">hey mark</string>
+    <string name="str_i_am_fine_how_can_i_help_you">I am fine, How can I help you ?</string>
+    <string name="str_hello">hello</string>
+    <string name="str_how_i_can_help_you">how I can help you ?</string>
+    <string name="str_missing_something">missing something</string>
+    <string name="str_speech">Speech</string>
+    <string name="str_tap_to_speak">Tap to Speak</string>
+</resources>
